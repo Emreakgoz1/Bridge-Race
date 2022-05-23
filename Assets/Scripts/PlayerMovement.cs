@@ -9,7 +9,6 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] Camera cam;
 
     [SerializeField] Animator PlayerAnim;
-  
     void Update()
     {
         MoveCharacter();   
@@ -33,6 +32,8 @@ public class PlayerMovement : MonoBehaviour
             PlayerAnim.SetBool("isRunning", false);
         }
     }
+
+
 
    
 }
