@@ -8,6 +8,8 @@ TagManager:
   - Red
   - Blue
   - Merdiven
+  - DropChecker
+  - LevelEnd
   layers:
   - Default
   - TransparentFX

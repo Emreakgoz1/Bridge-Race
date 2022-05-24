@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void MoveCharacter()
     {
+        
         if (Input.GetMouseButton(0))
         {
             transform.Translate(Vector3.forward * MoveForce * Time.deltaTime);
@@ -35,5 +36,5 @@ public class PlayerMovement : MonoBehaviour
 
 
 
-   
+
 }

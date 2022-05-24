@@ -9,7 +9,7 @@ public class RedAi: MonoBehaviour
     public GameObject targetsParent;
     public List<GameObject> targets = new List<GameObject>();
     public float radius;
-    public Transform toplanacaklaranaobjesi;
+    public Transform collectingObject;
     public GameObject prevObject;
     public List<GameObject> Cubes = new List<GameObject>();
 
@@ -73,7 +73,7 @@ public class RedAi: MonoBehaviour
     {
         if (target.gameObject.tag =="Red")
         {
-            target.transform.SetParent(toplanacaklaranaobjesi);
+            target.transform.SetParent(collectingObject);
             Vector3 pos = prevObject.transform.localPosition;
             pos.y += 0.1f;
             pos.z = 0;

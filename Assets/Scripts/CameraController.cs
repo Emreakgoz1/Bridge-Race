@@ -6,6 +6,7 @@ public class CameraController : MonoBehaviour
 {
     public Transform playerTransform;
     private Vector3 _cameraOffset;
+    public bool isRunCamera = false;
 
     [Range(0.01f, 1.0f)]
     public float smoothFactor = 0.050f;
